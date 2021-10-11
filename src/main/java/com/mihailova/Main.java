@@ -10,6 +10,16 @@ public class Main {
         Posters fourPoster = new Posters("A1", "Матовая", true, 2, "000004");
         Posters fivePoster = new Posters("A3", "Глянцевая", true, 1, "000005");
 
+        onePoster.printing();
+        twoPoster.printing();
+        threePoster.printing();
         fourPoster.printing();
+        fivePoster.printing();
+
+        onePoster.showMespecifications();
+        twoPoster.showMespecifications();
+        threePoster.showMespecifications();
+        fourPoster.showMespecifications();
+        fivePoster.showMespecifications();
     }
 }
