@@ -4,21 +4,21 @@ public class Posters {
 
     String posterSize;
     String typePaper;
-    boolean embossing; //тиснение
+    boolean isEmbossing; //тиснение
     int numberOfPosters;
     String nomber;
 
 
-    public Posters(String posterSize, String typePaper, boolean embossing, int numberOfPosters, String nomber) {
+    public Posters(String posterSize, String typePaper, boolean isEmbossing, int numberOfPosters, String nomber) {
         this.posterSize = posterSize;
         this.typePaper = typePaper;
-        this.embossing = embossing;
+        this.isEmbossing = isEmbossing;
         this.numberOfPosters = numberOfPosters;
         this.nomber = nomber;
 
         System.out.println("Характеристики вашего плаката:");
         System.out.println("- Порядковый номер: " + nomber);
-        if (embossing) {
+        if (isEmbossing) {
             System.out.println("- Есть тиснение");
         } else {
             System.out.println("- Нет тиснения");
