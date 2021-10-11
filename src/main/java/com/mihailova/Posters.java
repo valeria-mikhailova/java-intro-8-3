@@ -43,7 +43,7 @@ public class Posters {
         }
         if (numberOfPosters >= 21) {
         System.out.println("Максимальное количество копий = 20\n");
-    }
+        }
     }
 }
 
